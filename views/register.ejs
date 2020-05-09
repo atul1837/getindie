@@ -1,0 +1,110 @@
+<!-- <h1>sign up</h1>
+
+<form action="/register" method="POST">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <button>signup!</button>
+</form> -->
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style>
+        body {
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSFWany9RGQxTlpiS57uz7aIqebpGBT6BKz_I72gie8dBwZxDV9");
+        }
+        .container-xs {
+            background: white;
+        }
+       </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="realregisterationform.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+     .a {
+   background: black;
+ }
+.nav-img {
+  width: 40px;
+  height: 40px;
+}
+</style>
+    <title>Registeration form</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark a">
+        <a class="navbar-brand" href="/"><img src="/logo.jpeg" class="nav-img" alt=""> GetIndie</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+           
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#" align="right">Sign In</a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log In</a>
+            </li> -->
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+           <!--  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log In</button> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/login">Log In <span class="sr-only">(current)</span></a>
+            </li>
+                  <li class="nav-item active">
+              <a class="nav-link" href="/register">Sign Up <span class="sr-only">(current)</span></a>
+            </li>
+          </form>
+        </div>
+      </nav>
+      
+     <div class="container-xs border border-secondary rounded" style="padding: 5%; margin-top: 5%; align-self: center; margin: 10%; ;">
+      <h1   >Sign Up</h1>
+      <form action="/register" method="POST">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username" placeholder="Username">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group" >
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Passoword">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" required="true">
+          <label class="form-check-label" for="exampleCheck1">I agree  terms and conditions</label><br>
+          <a href="/login">Already a user?Login </a>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+       </form>
+    </div>  
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
